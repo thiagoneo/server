@@ -179,8 +179,10 @@
 				"pgPoolExtraOptions": {},
 				"damengExtraOptions": {},
 				"msSqlExtraOptions": {
-					"encrypt": false,
-					"trustServerCertificate": true
+					"options": {
+						"encrypt": false,
+						"trustServerCertificate": true
+					}
 				}
 			},
 			"redis": {
